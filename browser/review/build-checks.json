@@ -1,0 +1,10 @@
+{
+  "repeat_build_exit": 0,
+  "byte_identical": true,
+  "files": 243,
+  "bytes": 59063528,
+  "runtime_archive_hash_verified": true,
+  "runtime_assets_hash_verified": true,
+  "server_files_unchanged": true,
+  "teaching_package_unchanged": true
+}

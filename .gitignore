@@ -5,3 +5,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Isolated browser builds and local test scratch
+browser/dist/
+browser/test-results/

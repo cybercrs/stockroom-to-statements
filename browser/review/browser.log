@@ -1,0 +1,7 @@
+PASSED: Pinned Wasm runtime; local subdirectory assets; initial navigation and layout
+PASSED: Missing selection; deliberate wrong answer; refresh; revision; repeated immutable review; keyboard
+PASSED: Drafts and stable shuffle preserved in review bookmarks; future-view rejected
+PASSED: Complete lesson including all decisions, numeric gates, wrong calculations, revisions and scoring
+PASSED: Entire reached lesson reviewed both directions without progress changes; 390px layout
+PASSED: Separate tabs and contexts; reset and refreshed new game; invalid snapshot and future rejected
+PASSED: No external requests, console errors or page execution errors

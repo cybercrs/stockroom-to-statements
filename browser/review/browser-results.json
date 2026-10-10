@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "name": "Pinned Wasm runtime; local subdirectory assets; initial navigation and layout",
+      "status": "passed"
+    },
+    {
+      "name": "Missing selection; deliberate wrong answer; refresh; revision; repeated immutable review; keyboard",
+      "status": "passed"
+    },
+    {
+      "name": "Drafts and stable shuffle preserved in review bookmarks; future-view rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Complete lesson including all decisions, numeric gates, wrong calculations, revisions and scoring",
+      "status": "passed"
+    },
+    {
+      "name": "Entire reached lesson reviewed both directions without progress changes; 390px layout",
+      "status": "passed"
+    },
+    {
+      "name": "Separate tabs and contexts; reset and refreshed new game; invalid snapshot and future rejected",
+      "status": "passed"
+    },
+    {
+      "name": "No external requests, console errors or page execution errors",
+      "status": "passed"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "external_requests": [],
+  "runtime": {
+    "python": "3.13.2",
+    "streamlit": "1.57.0",
+    "pyodide": "0.29.3"
+  },
+  "initial_render_seconds": 16.97,
+  "navigation_layout": {
+    "desktop": [
+      {
+        "x": 1044,
+        "y": 332.953125,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 1096,
+        "y": 332.953125,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow": [
+      {
+        "x": 278,
+        "y": 411.390625,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 411.390625,
+        "width": 44,
+        "height": 44
+      }
+    ]
+  },
+  "score": {
+    "correct": 14,
+    "attempted": 27,
+    "total": 27,
+    "revisions": 13
+  },
+  "status": "passed"
+}

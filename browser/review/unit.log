@@ -1,0 +1,46 @@
+test_complete_case_reaches_debrief_without_excluded_mechanics (test_app_flow.PerfectInventoryFlowTests.test_complete_case_reaches_debrief_without_excluded_mechanics) ... 2026-10-10 15:55:50.705 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_draft_restores_and_wrong_answer_revises_in_place (test_app_flow.PerfectInventoryFlowTests.test_draft_restores_and_wrong_answer_revises_in_place) ... 2026-10-10 15:55:54.141 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_incorrect_calculations_receive_hints_without_expected_answers (test_app_flow.PerfectInventoryFlowTests.test_incorrect_calculations_receive_hints_without_expected_answers) ... 2026-10-10 15:55:54.560 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_incorrect_costing_receives_hints_without_expected_answers (test_app_flow.PerfectInventoryFlowTests.test_incorrect_costing_receives_hints_without_expected_answers) ... 2026-10-10 15:55:55.867 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_start_over_clears_saved_draft_and_returns_to_brief (test_app_flow.PerfectInventoryFlowTests.test_start_over_clears_saved_draft_and_returns_to_brief) ... 2026-10-10 15:55:57.536 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_complete_case_reaches_debrief_without_excluded_mechanics (test_browser_flow.PerfectInventoryFlowTests.test_complete_case_reaches_debrief_without_excluded_mechanics) ... 2026-10-10 15:55:58.022 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_draft_restores_and_wrong_answer_revises_in_place (test_browser_flow.PerfectInventoryFlowTests.test_draft_restores_and_wrong_answer_revises_in_place) ... 2026-10-10 15:55:59.016 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_incorrect_calculations_receive_hints_without_expected_answers (test_browser_flow.PerfectInventoryFlowTests.test_incorrect_calculations_receive_hints_without_expected_answers) ... 2026-10-10 15:55:59.234 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_incorrect_costing_receives_hints_without_expected_answers (test_browser_flow.PerfectInventoryFlowTests.test_incorrect_costing_receives_hints_without_expected_answers) ... 2026-10-10 15:55:59.856 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_start_over_clears_saved_draft_and_returns_to_brief (test_browser_flow.PerfectInventoryFlowTests.test_start_over_clears_saved_draft_and_returns_to_brief) ... 2026-10-10 15:56:00.601 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_navigation_and_advance_reject_locked_future_and_review_mutation (test_browser_navigation.BrowserNavigationTests.test_navigation_and_advance_reject_locked_future_and_review_mutation) ... 2026-10-10 15:56:00.741 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_review_preserves_earned_progress_and_current_draft (test_browser_navigation.BrowserNavigationTests.test_review_preserves_earned_progress_and_current_draft) ... 2026-10-10 15:56:00.826 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:56:01.345 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:56:01.517 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:56:01.627 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_combined_evaluators (test_engine.InventoryEngineTests.test_combined_evaluators) ... ok
+test_decision_evaluation (test_engine.InventoryEngineTests.test_decision_evaluation) ... ok
+test_inventory_analysis (test_engine.InventoryEngineTests.test_inventory_analysis) ... ok
+test_quantity_reconciliation_and_shrinkage (test_engine.InventoryEngineTests.test_quantity_reconciliation_and_shrinkage) ... ok
+test_reporting_questions_require_conceptual_explanations (test_engine.InventoryEngineTests.test_reporting_questions_require_conceptual_explanations) ... ok
+test_rising_cost_statement_order (test_engine.InventoryEngineTests.test_rising_cost_statement_order) ... ok
+test_two_layers_reconcile (test_engine.InventoryEngineTests.test_two_layers_reconcile) ... ok
+test_completed_round_trip (test_progress.ProgressSnapshotTests.test_completed_round_trip) ... ok
+test_current_incorrect_answer_can_be_restored (test_progress.ProgressSnapshotTests.test_current_incorrect_answer_can_be_restored) ... ok
+test_malformed_oversized_and_unknown_payloads_are_rejected (test_progress.ProgressSnapshotTests.test_malformed_oversized_and_unknown_payloads_are_rejected) ... ok
+test_restore_reset_and_score (test_progress.ProgressSnapshotTests.test_restore_reset_and_score) ... ok
+test_skipped_stage_is_rejected (test_progress.ProgressSnapshotTests.test_skipped_stage_is_rejected) ... ok
+test_tampered_completed_costing_is_rejected (test_progress.ProgressSnapshotTests.test_tampered_completed_costing_is_rejected) ... ok
+test_unsubmitted_calculation_draft_survives_refresh (test_progress.ProgressSnapshotTests.test_unsubmitted_calculation_draft_survives_refresh) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 11.128s
+
+OK
