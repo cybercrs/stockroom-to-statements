@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Stockroom to Statements — browser activity</title>
+    <link rel="stylesheet" href="./vendor/stlite.css">
+  </head>
+  <body>
+    <div id="root"><p role="status">Loading Stockroom to Statements. The first visit downloads the browser Python runtime.</p></div>
+    <noscript>This activity needs JavaScript and WebAssembly enabled.</noscript>
+    <script type="module">
+      import { mount } from "./vendor/stlite.js";
+      try {
+        const response = await fetch("./app.json");
+        if (!response.ok) throw new Error(`Application files: HTTP ${response.status}`);
+        const config = await response.json();
+        config.pyodideUrl = new URL(config.pyodideUrl, window.location.href).href;
+        config.requirements = config.requirements.map(url => new URL(url, window.location.href).href);
+        mount(config, document.getElementById("root"));
+      } catch (error) {
+        document.getElementById("root").textContent = `Unable to load the activity. Check your connection and refresh. ${error.message}`;
+      }
+    </script>
+  </body>
+</html>

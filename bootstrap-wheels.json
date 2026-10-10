@@ -1,0 +1,7 @@
+[
+  "./vendor/python/blinker-1.9.0-py3-none-any.whl#sha256=ba0efaa9080b619ff2f3459d1d500c57bddea4a6b424b60a91141db6fd2f08bc",
+  "./vendor/python/itsdangerous-2.2.0-py3-none-any.whl#sha256=c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef",
+  "./vendor/python/protobuf-7.36.2-py3-none-any.whl#sha256=bdb3a345d48db958e6ce1f18e508beb0cc981d64f24088427549c866cd039f1e",
+  "./vendor/python/python_multipart-0.0.32-py3-none-any.whl#sha256=ff6d3f776f16878c894e52e107296ffc890e913c611b1a4ec6c44e2821fe2e23",
+  "./vendor/python/tenacity-9.2.1-py3-none-any.whl#sha256=9e56f17539296baab7beabb08b92f6ee3d7be92d8be72d763360677c2ad6580e"
+]
