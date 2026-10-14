@@ -1,8 +1,8 @@
 {
   "repository": "cybercrs/stockroom-to-statements",
   "source_branch": "native/javascript",
-  "source_commit": "bbf9151ff21bef5aa7f2195b3bc9dcad12ed87f9",
+  "source_commit": "338707537fb3f368995d27fa6a44acf0b56db11a",
   "public_directory": "js/",
   "publication_status": "final student-facing JavaScript app",
-  "previous_static_commit": "cfab4518f8b7982b7b143f31f095759c0eb63244"
+  "previous_static_commit": "e934dee5d549467cd0b08b7b787a29ac90cffb18"
 }
