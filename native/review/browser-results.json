@@ -40,7 +40,7 @@
   "console_errors": [],
   "page_errors": [],
   "external_requests": [],
-  "initial_render_seconds": 0.17,
+  "initial_render_seconds": 0.15,
   "runtime": "native HTML/CSS/JavaScript; no installation",
   "navigation_layout": {
     "desktop": [
@@ -88,13 +88,27 @@
     "narrow-numeric-4": [
       {
         "x": 278,
-        "y": -205.125,
+        "y": -145.125,
         "width": 44,
         "height": 44
       },
       {
         "x": 330,
-        "y": -205.125,
+        "y": -145.125,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow-evidence-table": [
+      {
+        "x": 278,
+        "y": 368.875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 368.875,
         "width": 44,
         "height": 44
       }
@@ -121,14 +135,14 @@
     "revisions": 13
   },
   "cold_initializations_ms": [
-    77.80000000074506,
-    78.59999999962747,
-    86.30000000074506,
-    76.30000000074506,
-    81.30000000074506
+    96.40000000037253,
+    101.10000000149012,
+    89.19999999925494,
+    64.39999999850988,
+    117.90000000037253
   ],
-  "cold_median_ms": 78.59999999962747,
+  "cold_median_ms": 96.40000000037253,
   "measurement_scope": "Five cache-disabled fresh Chromium contexts on local loopback; no hosted, school-network, physical-device or class-capacity claim.",
-  "package_bytes": 153815,
+  "package_bytes": 154116,
   "status": "passed"
 }

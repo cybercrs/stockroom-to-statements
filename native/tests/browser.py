@@ -179,6 +179,13 @@ def main():
             for _ in range(3):
                 click(page, "Back")
                 readonly(page)
+                if page.get_by_role("table").count():
+                    page.set_viewport_size({"width": 390, "height": 844})
+                    layout(page, "narrow-evidence-table")
+                    page.screenshot(
+                        path=str(output / "evidence-table-narrow.png"), full_page=True
+                    )
+                    page.set_viewport_size({"width": 1280, "height": 900})
                 assert settle(page) == state
                 click(page, "Forward")
                 assert settle(page) == state
@@ -339,6 +346,13 @@ def main():
                 click(page, "Back")
                 settle(page, lambda s, v: v == str(position))
                 readonly(page)
+                if page.get_by_role("table").count():
+                    page.set_viewport_size({"width": 390, "height": 844})
+                    layout(page, "narrow-evidence-table")
+                    page.screenshot(
+                        path=str(output / "evidence-table-narrow.png"), full_page=True
+                    )
+                    page.set_viewport_size({"width": 1280, "height": 900})
                 if position == 1:
                     page.screenshot(path=str(output / "review.png"), full_page=True)
                 assert settle(page) == state

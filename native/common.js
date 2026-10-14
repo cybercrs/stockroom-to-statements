@@ -91,4 +91,3 @@ export async function shuffled(input,seed,salt) {
   if(result.length>1&&result.every((value,index)=>value===input[index]))return [...result.slice(1),result[0]];
   return result;
 }
-

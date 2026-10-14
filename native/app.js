@@ -77,7 +77,7 @@ function table(node,index) {
     link.href=url;link.download=`${DATA.slug}-stage-${lesson.position.stage}-table-${index+1}.csv`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
   tools.append(download);section.append(tools);return section;
 }
-function html(node){const template=document.createElement('template');template.innerHTML=node.text;return template.content;}
+function html(node){const template=document.createElement('template');template.innerHTML=node.text;for(const table of template.content.querySelectorAll('table')){const wrap=create('div',undefined,'table-wrap');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Case evidence table. Scroll horizontally to see every column.');table.replaceWith(wrap);wrap.append(table);}return template.content;}
 function feedback(node){
   const g=NUMBERS.find(g=>g.stage===lesson.position.stage),field=g.fields.find(([,label])=>label===node.label),choice=g.choices.find(c=>c.label===node.label),checked=numericResult(lesson.state,g);
   const correct=field?checked.fields[field[0]].correct:checked.choices[choice.key].correct;
