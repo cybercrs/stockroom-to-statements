@@ -1,0 +1,85 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #14213D; }
+.block-container { margin: 0 auto; padding: 1.35rem 2rem 4rem; }
+h1, h2, h3 { line-height: 1.25; }
+h2 { font-size: clamp(1.7rem,3vw,2rem); margin: 1.3rem 0 .9rem; }
+h3 { font-size: 1.25rem; }
+p { margin: .65rem 0; }
+button, input { font: inherit; }
+button { cursor: pointer; color: #14213D; background: #fff; border: 1px solid #BCC6D5; border-radius: 9px; min-height: 44px; padding: .5rem .85rem; font-weight: 650; }
+button:disabled { opacity: .55; cursor: default; }
+button:hover:not(:disabled) { border-color: #003087; background: #EDF2F9; }
+button:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid #003087; outline-offset: 3px; }
+.primary { color: white; background: #CE0037; border-color: #CE0037; width: 100%; margin-top: 1rem; }
+.primary:hover:not(:disabled) { color: white; background: #A9002E; border-color: #A9002E; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: .6rem; margin: 1rem 0; }
+.review-nav { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+#page-counter { font-size: .75rem; color: #59677A; white-space: nowrap; }
+.quiet { font-size: .8rem; background: transparent; color: #59677A; font-weight: 500; border-color: transparent; padding: .35rem .5rem; }
+.arrow { height: 44px; min-width: 44px; width: 44px; padding: 11px; background: transparent; color: #59677A; border-color: #C5CCD8; border-radius: 6px; flex-shrink: 0; }
+.arrow svg { display: block; width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.notice { border-radius: 9px; padding: .9rem 1rem; margin: .85rem 0; color: #14213D; }
+.notice.success { background: #E0F2E9; }
+.notice.warning { background: #FFF3D8; }
+.notice.info { background: #E7EDFA; }
+.caption, .save-note { color: #59677A; font-size: .85rem; }
+.save-note { margin-top: 2rem; }
+#save-error { color: #8D0025; }
+.skip { position: absolute; left: 1rem; top: -5rem; z-index: 1; padding: .5rem; background: #fff; }
+.skip:focus { top: 0; }
+fieldset { border: 0; margin: 1rem 0 0; padding: 0; min-width: 0; }
+legend { padding: 0; font-weight: 600; margin-bottom: .65rem; }
+.choice { display: flex; align-items: flex-start; gap: .65rem; border: 1px solid #D9E0EA; border-radius: 9px; background: white; padding: .7rem .8rem; margin: .5rem 0; cursor: pointer; min-height: 44px; }
+.choice:hover { border-color: #003087; }
+.choice input { margin: .4rem 0 0; accent-color: #CE0037; width: 18px; height: 18px; flex-shrink: 0; }
+.amount { display: block; margin: 1.1rem 0; }
+.amount label { display: block; font-weight: 600; margin-bottom: .5rem; }
+.amount-row { display: flex; max-width: 560px; gap: 6px; }
+.amount-row input { border: 1px solid #BFC9D8; border-radius: 9px; min-width: 0; width: 100%; min-height: 44px; padding: .6rem .8rem; background: #fff; }
+.amount-row button { min-width: 44px; padding: .5rem; }
+input[aria-invalid='true'] { border-color: #CE0037; }
+.table-wrap { width: 100%; overflow-x: auto; background: white; border: 1px solid #D9E0EA; border-radius: 9px; margin: .8rem 0; }
+table { width: 100%; border-collapse: collapse; font-size: .9rem; min-width: 660px; }
+th, td { padding: .65rem .8rem; border-bottom: 1px solid #E6EAF1; text-align: left; vertical-align: top; }
+th { color: #003087; background: #EEF3FA; }
+th button { background: transparent; border: 0; padding: 0; min-height: 32px; font-size: inherit; font-weight: 700; text-align: left; }
+.table-tools { display: flex; justify-content: flex-end; }
+.table-tools button { font-size: .8rem; min-height: 44px; }
+.case-progress { color: #59677A; font-size: .85rem; margin: .8rem 0; }
+progress { display: block; width: 100%; height: 7px; border: 0; border-radius: 8px; margin: .5rem 0 1rem; accent-color: #CE0037; }
+progress::-webkit-progress-bar { background: #E6EAF1; border-radius: 8px; }
+progress::-webkit-progress-value { background: #CE0037; border-radius: 8px; }
+.columns { display: grid; grid-template-columns: repeat(var(--columns),minmax(0,1fr)); gap: 1rem; }
+.metric { padding: .8rem 0; }
+.metric span { display: block; font-size: .9rem; color: #59677A; }
+.metric strong { display: block; font-size: 1.8rem; color: #003087; }
+.delta { color: #137A4B; font-size: .85rem; }
+.delta.negative { color: #AA173A; }
+details { border: 1px solid #D9E0EA; border-radius: 9px; padding: .5rem .85rem; background: #fff; margin: .7rem 0; }
+summary { cursor: pointer; padding: .5rem 0; min-height: 44px; }
+main:focus { outline: 0; }
+@media(max-width:820px) { .block-container { padding: 1rem 1rem 3rem; } .columns { grid-template-columns: 1fr; } }
+@media(prefers-reduced-motion:reduce) { * { scroll-behavior: auto !important; } }
+
+.visually-hidden {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;}
+
+.table-tools {gap: .5rem;}
+.expanded-table {border:1px solid #BCC6D5;border-radius:12px;width:95vw;max-width:1400px;max-height:90vh;overflow:auto;padding:1rem;}
+.expanded-table::backdrop {background:rgba(20,33,61,.5);}
+
+/* Conventional age-bucket columns, stable measure rows, and visible totals. */
+.aging-schedule { table-layout: fixed; min-width: 1060px; }
+.aging-schedule th, .aging-schedule td { width: 142px; }
+.aging-schedule th:first-child, .aging-schedule td:first-child { position: sticky; left: 0; width: 208px; background: #EEF3FA; text-align: left; z-index: 1; }
+.aging-schedule th:last-child, .aging-schedule td:last-child { position: sticky; right: 0; width: 142px; background: #E5F3EB; font-weight: 700; box-shadow: -2px 0 0 #C8D8D0; z-index: 1; }
+.aging-schedule thead th:first-child, .aging-schedule thead th:last-child { z-index: 2; }
+.aging-schedule tbody td { text-align: right; font-variant-numeric: tabular-nums; }
+.table-help { margin: .25rem 0 .6rem; }
+@media(max-width:820px) {
+  .aging-schedule { min-width: 880px; font-size: .82rem; }
+  .aging-schedule th, .aging-schedule td { width: 128px; padding: .55rem; }
+  .aging-schedule th:first-child, .aging-schedule td:first-child { width: 118px; }
+  .aging-schedule th:last-child, .aging-schedule td:last-child { width: 110px; }
+}
+
+.tab-list{display:flex;gap:.35rem;flex-wrap:wrap;margin:1rem 0}.tab-list button[aria-selected="true"]{color:#fff;background:#003087}.tab-panel[hidden]{display:none}.tab-panel{padding:.5rem 0}.number-note{font-size:.85rem;color:#586579}

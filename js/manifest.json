@@ -1,0 +1,24 @@
+{
+  "title": "Stockroom to Statements",
+  "public_directory": "js/",
+  "runtime_dependencies": [],
+  "files_sha256": {
+    "index.html": "df762baa4b40c855aae4fff78bac237722dd9c57dbd03f349eb9e26d6953fff6",
+    "original.css": "01e551679c9cb2438ee3c8aaaf8a05afc54418f8589412763b793861c251eab6",
+    "style.css": "b64d0d5c4a465eb400137246e8292319be1d8f358aef4ee3fc59b58ef9109760",
+    "content.js": "883075f8653516b00f872137317af6af52b21376116bd8d3af3e478a21fd63ba",
+    "common.js": "7f86696963fb2fdc2b11cf366cec1f4d8e9c3c2f382f4357b8fb4317ba393f31",
+    "engine.js": "cd3b128f6b443e95f760f6b11ed1e2d6beeab79d1b35416c27a9d7efdc03031d",
+    "app.js": "259ef1e7793afe9c8e627dccfe5cbecc11bb03df40738698ecffc92a9a6554d3"
+  },
+  "files_bytes": {
+    "index.html": 1958,
+    "original.css": 7367,
+    "style.css": 6520,
+    "content.js": 103673,
+    "common.js": 5555,
+    "engine.js": 12505,
+    "app.js": 16538
+  },
+  "application_bytes": 154116
+}
