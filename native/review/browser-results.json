@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "name": "Packaged native runtime, final title, project /js/ assets and desktop layout",
+      "status": "passed"
+    },
+    {
+      "name": "Missing selection; deliberate wrong answer; refresh; revision; repeated immutable review; keyboard",
+      "status": "passed"
+    },
+    {
+      "name": "Drafts and stable shuffle preserved in review bookmarks; future-view rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Complete lesson including all decisions, numeric gates, wrong calculations, revisions and scoring",
+      "status": "passed"
+    },
+    {
+      "name": "Entire reached lesson reviewed both directions without progress changes; 390px layout",
+      "status": "passed"
+    },
+    {
+      "name": "Separate tabs and contexts; reset and refreshed new game; invalid snapshot and future rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Original saved links for every stage restore without unlocking future views",
+      "status": "passed"
+    },
+    {
+      "name": "Five local cold initializations with no runtime installation",
+      "status": "passed"
+    },
+    {
+      "name": "No external requests, console errors or page execution errors",
+      "status": "passed"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "external_requests": [],
+  "initial_render_seconds": 0.17,
+  "runtime": "native HTML/CSS/JavaScript; no installation",
+  "navigation_layout": {
+    "desktop": [
+      {
+        "x": 1092,
+        "y": 267.921875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 1144,
+        "y": 267.921875,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow-numeric-1": [
+      {
+        "x": 278,
+        "y": 79.875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 79.875,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow-numeric-2": [
+      {
+        "x": 278,
+        "y": 95.875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 95.875,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow-numeric-4": [
+      {
+        "x": 278,
+        "y": -205.125,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": -205.125,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow": [
+      {
+        "x": 278,
+        "y": 368.875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 368.875,
+        "width": 44,
+        "height": 44
+      }
+    ]
+  },
+  "score": {
+    "correct": 14,
+    "attempted": 27,
+    "total": 27,
+    "revisions": 13
+  },
+  "cold_initializations_ms": [
+    77.80000000074506,
+    78.59999999962747,
+    86.30000000074506,
+    76.30000000074506,
+    81.30000000074506
+  ],
+  "cold_median_ms": 78.59999999962747,
+  "measurement_scope": "Five cache-disabled fresh Chromium contexts on local loopback; no hosted, school-network, physical-device or class-capacity claim.",
+  "package_bytes": 153815,
+  "status": "passed"
+}

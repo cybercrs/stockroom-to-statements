@@ -1,0 +1,1427 @@
+{
+  "calculations": {
+    "quantity": {
+      "physical_count": 28,
+      "less_consigned": 6,
+      "add_inbound_shipping_point": 10,
+      "add_outbound_destination": 8,
+      "exclude_inbound_destination": 4,
+      "ending_units": 40,
+      "records_expected_units": 44,
+      "shrinkage_units": 4
+    },
+    "available": {
+      "units": 200,
+      "cost": 27600,
+      "beginning_cost": 9600,
+      "purchase_cost": 18000
+    },
+    "methods": {
+      "FIFO": {
+        "method": "FIFO",
+        "ending_inventory": 6000,
+        "cost_of_goods_sold": 21600,
+        "gross_profit": 12400
+      },
+      "LIFO": {
+        "method": "LIFO",
+        "ending_inventory": 4800,
+        "cost_of_goods_sold": 22800,
+        "gross_profit": 11200
+      },
+      "Average cost": {
+        "method": "Average cost",
+        "ending_inventory": 5520,
+        "cost_of_goods_sold": 22080,
+        "gross_profit": 11920
+      }
+    },
+    "metrics": {
+      "FIFO": {
+        "average_inventory": 7800.0,
+        "inventory_turnover": 2.769230769230769,
+        "days_in_inventory": 131.80555555555557
+      },
+      "LIFO": {
+        "average_inventory": 7200.0,
+        "inventory_turnover": 3.1666666666666665,
+        "days_in_inventory": 115.26315789473685
+      },
+      "Average cost": {
+        "average_inventory": 7560.0,
+        "inventory_turnover": 2.9206349206349205,
+        "days_in_inventory": 124.97282608695653
+      }
+    },
+    "expected": {
+      "quantity": {
+        "ending_units": 40,
+        "shrinkage_units": 4
+      },
+      "cost": {
+        "fifo_ending_inventory": 6000,
+        "fifo_cogs": 21600,
+        "lifo_ending_inventory": 4800,
+        "lifo_cogs": 22800,
+        "average_unit_cost": 138,
+        "average_ending_inventory": 5520,
+        "average_cogs": 22080
+      },
+      "analysis": {
+        "average_inventory": 7800,
+        "inventory_turnover": 2.77,
+        "days_in_inventory": 132
+      }
+    }
+  },
+  "snapshots": [
+    {
+      "token": "eNpFjcEKgDAMQ_8lZw_icX9T5gaiol3Fy9i_W9fCTq8haVJBGwIwgU6nIGQ6JOn5INSmfI1Ro7OiuBzJ6In1t0DuG3YDG_qvMt-mr17JycZ5VLJXFhstPipdqbe0D-rJNeY",
+      "payload": {
+        "v": 2,
+        "s": 0,
+        "o": 0,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {},
+          "r": {},
+          "a": {}
+        },
+        "ci": 0,
+        "cr": {},
+        "qv": {},
+        "qe": "",
+        "qs": false,
+        "cv": {},
+        "cs": false,
+        "ri": 0,
+        "rr": {},
+        "av": {},
+        "ai": "",
+        "am": "",
+        "as": false,
+        "at": {},
+        "fp": {}
+      }
+    },
+    {
+      "token": "eNpFjjEKwzAMRa9iNGdoO3ot7RU6FuPIEOJEtZyGmuC7V4kMmZ4__jz9DdwAFqADNzVmsMHFjPJcwG5VuCq9VC8ClgjZRczvEIkkwuPn47dHE5gm84wF2dyLj2hexGM2w7zivBAX2DXnBd_M_aF07YxiVCTFXqjC8NFMx5SEOjqdytSUrGOZNUrh2oH83eofF5hKVg",
+      "payload": {
+        "v": 2,
+        "s": 1,
+        "o": 0,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {},
+          "r": {},
+          "a": {}
+        },
+        "ci": 0,
+        "cr": {
+          "sales_floor": "Exclude from Flyer Cycle Works inventory"
+        },
+        "qv": {},
+        "qe": "",
+        "qs": false,
+        "cv": {},
+        "cs": false,
+        "ri": 0,
+        "rr": {},
+        "av": {},
+        "ai": "",
+        "am": "",
+        "as": false,
+        "at": {},
+        "fp": {}
+      }
+    },
+    {
+      "token": "eNqdUrtuwzAM_BVBc4YiQwd3LFqgX9DRUCTaIaKQjkgHNYL8e2nLSJcCTTqdJeoexPniA_rG-40PxxXFN13IAvapvrlcDc8Voz19Nih29JFJsCdIbUIZcpiM_vYV85jAdYWP7j1PUNzrFDO4Ty4HcUhnIOUymU0cRfkIpS0wBCzyGBtpxyOZNYgiBUWm_wnIHocBqW8HRrJ1_QdVDaQ_FHjU3zLcza97t6KB0oPbS8ggbZeZy_2Oc38_1ca10rR0GdZ-KxwqnCrMD66G3VDP7JsnG8LivIqbTSwQBOTFRRZ13LmeOYkTzskluE2VNWQXREDF2eaOQGe2_Qo3EdvwZEm1jBb0NAf1QGkuaSRUWfxlX5AOoYfb3RwVl1kpNandbjfe-NvrNyIzAcI",
+      "payload": {
+        "v": 2,
+        "s": 2,
+        "o": 0,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {},
+          "r": {},
+          "a": {}
+        },
+        "ci": 6,
+        "cr": {
+          "sales_floor": "Include in Flyer Cycle Works inventory",
+          "repair_stands": "Exclude from Flyer Cycle Works inventory",
+          "customer_repairs": "Exclude from Flyer Cycle Works inventory",
+          "consigned_display": "Exclude from Flyer Cycle Works inventory",
+          "inbound_shipping_point": "Include in Flyer Cycle Works inventory",
+          "outbound_destination": "Include in Flyer Cycle Works inventory",
+          "inbound_destination": "Exclude from Flyer Cycle Works inventory"
+        },
+        "qv": {
+          "ending_units": 0,
+          "shrinkage_units": 0
+        },
+        "qe": "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "qs": true,
+        "cv": {},
+        "cs": false,
+        "ri": 0,
+        "rr": {},
+        "av": {},
+        "ai": "",
+        "am": "",
+        "as": false,
+        "at": {},
+        "fp": {}
+      }
+    },
+    {
+      "token": "eNqdUk1PwzAM_StRzjsgQBzGEYHEL-BYhcbtrGV2G6cT1bT_jtOUDqQhNk4v8cfzy3MO1qFdW7uybjej2HXjgoAek10fjor7grWWPihEvdqaSbAl8JVH6YIbtf35ow6DB9NE3pmXMEI0T2MdwLxx3IpB2gMljqOOqQdJvINYRegcRrmuG-mdB9LRIAnJJWT6H4FssOuQ2qpjJH2ufaXCgfQHAw_pnIaL-8u7K0mO_JWvFxdAqiYwx8sn5v3pnBQH3WydN6p7hehaqGpuNXOzWgJAPntyav6eHAiTtkiaog02fCKYbme7w4-68EudivTT73LzjyuwLdAXyAVHxaYrd54oe5i8mLmMhzqCE5BHk7UabkzL7MUIB6-2LNnEyQXjRCCJ0V0YgpTz-jkXEvW8X7zrJ-9m8dkMzdyrANlEpO2XQzmYteIkLsYiVaN3K6sEt8dPU2U2VA",
+      "payload": {
+        "v": 2,
+        "s": 3,
+        "o": 0,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {},
+          "r": {},
+          "a": {}
+        },
+        "ci": 6,
+        "cr": {
+          "sales_floor": "Include in Flyer Cycle Works inventory",
+          "repair_stands": "Exclude from Flyer Cycle Works inventory",
+          "customer_repairs": "Exclude from Flyer Cycle Works inventory",
+          "consigned_display": "Exclude from Flyer Cycle Works inventory",
+          "inbound_shipping_point": "Include in Flyer Cycle Works inventory",
+          "outbound_destination": "Include in Flyer Cycle Works inventory",
+          "inbound_destination": "Exclude from Flyer Cycle Works inventory"
+        },
+        "qv": {
+          "ending_units": 40,
+          "shrinkage_units": 4
+        },
+        "qe": "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "qs": true,
+        "cv": {
+          "fifo_ending_inventory": 0,
+          "fifo_cogs": 0,
+          "lifo_ending_inventory": 0,
+          "lifo_cogs": 0,
+          "average_unit_cost": 0,
+          "average_ending_inventory": 0,
+          "average_cogs": 0
+        },
+        "cs": true,
+        "ri": 0,
+        "rr": {},
+        "av": {},
+        "ai": "",
+        "am": "",
+        "as": false,
+        "at": {},
+        "fp": {}
+      }
+    },
+    {
+      "token": "eNqdUsFu2zAM_RVC5xRIvbYIvOPQAD3t2KOhWbQtRCYdUe5mFPn3UbbrBeiAtTs9m498fCT1aqw3pTE7Y_sVxZSNDYL6mUz5elF8WbDW1AeFqL-mZhLfErrKeRmCnbT88VcdRofQRO7hGCaM8G2qA8Izx5OApxekxHHSNvUoiXuMVcTB-iifq_b0g0fS1ijJk02e6f8EpPPD4KmtBvak45onWjQ8_UOBx_Q3Dx-uX-auJFlyn5xebECpmsAcP94x30_7pDjqZet8Ub0rRttiVXOrTFHsD_vdFkRyeS9_BMr7--KKH8knrRRd2u2Xw840vuE3pduH_X6NvJdRTslwlV4ctsj79Dsl1bubH51dH-ICpwXOC-SEi2IzLP9sSlU947yiVQ4c1hGtoHyF7B24gZbZCQgHp9va2MTJBrAimAT0RECYMq9vdhPRU5y3lZ7nla7-83KUuVMD0kVPp7eN5WD26mdzcR6q822nb-h6aHN8On7P3cceBVKH6rYfLE3AP0mg54gwdJP4Wk3OumATTGjjjTrIt86NdkY9FZffa39ZXA",
+      "payload": {
+        "v": 2,
+        "s": 4,
+        "o": 0,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {},
+          "r": {},
+          "a": {}
+        },
+        "ci": 6,
+        "cr": {
+          "sales_floor": "Include in Flyer Cycle Works inventory",
+          "repair_stands": "Exclude from Flyer Cycle Works inventory",
+          "customer_repairs": "Exclude from Flyer Cycle Works inventory",
+          "consigned_display": "Exclude from Flyer Cycle Works inventory",
+          "inbound_shipping_point": "Include in Flyer Cycle Works inventory",
+          "outbound_destination": "Include in Flyer Cycle Works inventory",
+          "inbound_destination": "Exclude from Flyer Cycle Works inventory"
+        },
+        "qv": {
+          "ending_units": 40,
+          "shrinkage_units": 4
+        },
+        "qe": "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "qs": true,
+        "cv": {
+          "fifo_ending_inventory": 6000,
+          "fifo_cogs": 21600,
+          "lifo_ending_inventory": 4800,
+          "lifo_cogs": 22800,
+          "average_unit_cost": 138,
+          "average_ending_inventory": 5520,
+          "average_cogs": 22080
+        },
+        "cs": true,
+        "ri": 0,
+        "rr": {
+          "highest_inventory": "FIFO assumes the company owns more physical units at year-end"
+        },
+        "av": {},
+        "ai": "",
+        "am": "",
+        "as": false,
+        "at": {},
+        "fp": {}
+      }
+    },
+    {
+      "token": "eNqdVU1P20AQ_SsjX3oxUkgBoXBEpeJQ9dBKHK2Nd5yMcHadnXVohPjvfbt2TPiQCr0w8c7Mm683w2NhpFgUt27HLvqwJ1Ha-J24FTVGIweKa-Pwh0mc7TXCxOw4mBWX9CBxTQ0_wKrpnVWKwpb6rigLs8modWCjTAyPPXAtt1-Uuj7U6_S87Y2LEvcZyPeRAu-EH1JwyxvjbALSYhFDz_gVi8XjE-QOshiTqOSQebGYlYU1e8XTq9fpq4p9cB6eeAZSjdIvIEICrL1TWTm2lRXtWgPX4tufuu0tUxP8hm7aPQq93tct050P90rPUQCC3vgNhypwZyTo57zFLT06WFnWKM5E8e7_AHQtXYcGVp0XF4cZZAxx_0BA_9_L4cP-Q92VRsztk9WraVmrpvU-fDximt_EjfoFJ2q_gmY-n13OyumRnU19OWLG-fn8SN87ifBUNO3062VZNNL4A9LpxWw2vryFgQ7K9sh8fjm9vDU_gxK520w6M1C6HsT9ILaDSAZPkE03fPvM5S2_WFfLw4rpFaXcyTe08h6rqL616NakjT6alowqRyWMiBzHpAdnJxCMYju1dJtbOuafmgPNGRLQdRB3f-hYeky5YpPOIMLxGDqvMrLojmW1jjgOo46WLeeDgbuS8taU-NLjnGDxOCgtufGBU77YyXQQcnXR0xB0HMaQf8VNw3Ui-4_sszPSGgQYfAIuibjEHBqKeeZQSS2bfOvAPx3Mh4jIFLFyDw8B16gAm3E8yuLm9uZnxuChFJduYUnZNJxkvOz-XnBAdoEVH9O6v7KgLuASYx3J4L7idKFt7LiReEXX47C_52H_ysNOdgcS1H0IQDnpOIi35CFzmFSJdlxLI3UFbNxf_Dpk8Bs1mDr2YMo0lVRXZ0KUum9NGOtRbtHxNM-RaZbxv2Ijjt_JLK0qeHJeFqDU_OkvnXJLfQ",
+      "payload": {
+        "v": 2,
+        "s": 5,
+        "o": 0,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {},
+          "r": {},
+          "a": {}
+        },
+        "ci": 6,
+        "cr": {
+          "sales_floor": "Include in Flyer Cycle Works inventory",
+          "repair_stands": "Exclude from Flyer Cycle Works inventory",
+          "customer_repairs": "Exclude from Flyer Cycle Works inventory",
+          "consigned_display": "Exclude from Flyer Cycle Works inventory",
+          "inbound_shipping_point": "Include in Flyer Cycle Works inventory",
+          "outbound_destination": "Include in Flyer Cycle Works inventory",
+          "inbound_destination": "Exclude from Flyer Cycle Works inventory"
+        },
+        "qv": {
+          "ending_units": 40,
+          "shrinkage_units": 4
+        },
+        "qe": "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "qs": true,
+        "cv": {
+          "fifo_ending_inventory": 6000,
+          "fifo_cogs": 21600,
+          "lifo_ending_inventory": 4800,
+          "lifo_cogs": 22800,
+          "average_unit_cost": 138,
+          "average_ending_inventory": 5520,
+          "average_cogs": 22080
+        },
+        "cs": true,
+        "ri": 4,
+        "rr": {
+          "highest_inventory": "FIFO leaves the newer, higher-cost units in ending inventory",
+          "fifo_income_effect": "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+          "average_position": "Weighted average blends the costs of both layers before assigning cost to units",
+          "specific_identification": "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+          "presentation": "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations"
+        },
+        "av": {
+          "average_inventory": 0,
+          "inventory_turnover": 0,
+          "days_in_inventory": 0
+        },
+        "ai": "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "am": "Increase every model's purchase quantity without reviewing demand",
+        "as": true,
+        "at": {},
+        "fp": {}
+      }
+    },
+    {
+      "token": "eNqdVE1v2zAM_SuCzu6QZv0I0mOxDj0MO2xAj4Yi0Q5XRXIkOV1Q9L_vSXbcdC2wdpcwFsnHr0c-SsVyKW_djlzyYS84io3fsWshAolo_YPdi7RWDj8k2Jk-JtipHQXVUiUeOK1F0zsTRWIyou-E9a6lICupNhnbAJqbfcE6mcAN2VgJZX4BD_6pR7SuD3qtImWFA1QkkVRoKQG3C37jE3sXM3CUyxR6wr8kl49PkDtIOWZV86EeubxczGaVNGof8XqsOP08r-T0XSMB5-Eul_NPl5dA1GjMBUTIwBpxuXVkasOxswr-8stvbXtDokFm4sbuKYjrvbYk7ny4j-I5FEBQpN9QqAN1ikP8mDe7lUeDa0MxsVO5Cf8HENfcdWh_3Xl2qcx9wGD3DwTfp7dyeLf_UHcdE-b6weqjshTrxnof3h8xz2_iiH7BDe1baObz2WJWTY_kTO7LET3Oz-dH-t5xgmdMmTeLSjbc-APS6UVmWHl5DQMdlPbIfL6YXl6bn0GJ3E0hnRqorQdxP4jtILLBE2TTDd9eLoG6pRfLbEgHyvt0JXLuwjei9R6bGr016NakTT4pK1SMlGJZPUcp68HZCQSj2E4t3ZaWjvnn5kBzhgTiOrC7P3QsP-ZcsUlnEOF4DJ2PPLLojrhd5x0fdWJlqdwTHJycd8yJrzzuDBaPQhQravJxQr7YyXxOSnXJiyHoOIwh_5qahnQm-7fis1NsFQIMPoE2il1mjhiKeeZQJSypcqzAvziYDxGRKWKVHh4CrlEBNuN4lPLm9uZ7waChFEcPFCpRTMNJwSvubwUHZBco4mNa978s8kHcMdZRqMP5XJGjhtOVuB6H_bUM-0cZdrY7kED3IQDlpKPA3ggPqQ6nNXakuWFd83C3WR8y-IkalE49mDJNJdfVqZBY91aFsZ5IFh3P8xyZZnDBw4YdvZFZXtVYLi0oNX_6A93XVVg",
+      "payload": {
+        "v": 2,
+        "s": 6,
+        "o": 0,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {},
+          "r": {},
+          "a": {}
+        },
+        "ci": 6,
+        "cr": {
+          "sales_floor": "Include in Flyer Cycle Works inventory",
+          "repair_stands": "Exclude from Flyer Cycle Works inventory",
+          "customer_repairs": "Exclude from Flyer Cycle Works inventory",
+          "consigned_display": "Exclude from Flyer Cycle Works inventory",
+          "inbound_shipping_point": "Include in Flyer Cycle Works inventory",
+          "outbound_destination": "Include in Flyer Cycle Works inventory",
+          "inbound_destination": "Exclude from Flyer Cycle Works inventory"
+        },
+        "qv": {
+          "ending_units": 40,
+          "shrinkage_units": 4
+        },
+        "qe": "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "qs": true,
+        "cv": {
+          "fifo_ending_inventory": 6000,
+          "fifo_cogs": 21600,
+          "lifo_ending_inventory": 4800,
+          "lifo_cogs": 22800,
+          "average_unit_cost": 138,
+          "average_ending_inventory": 5520,
+          "average_cogs": 22080
+        },
+        "cs": true,
+        "ri": 4,
+        "rr": {
+          "highest_inventory": "FIFO leaves the newer, higher-cost units in ending inventory",
+          "fifo_income_effect": "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+          "average_position": "Weighted average blends the costs of both layers before assigning cost to units",
+          "specific_identification": "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+          "presentation": "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations"
+        },
+        "av": {
+          "average_inventory": 7800,
+          "inventory_turnover": 2.77,
+          "days_in_inventory": 132
+        },
+        "ai": "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "am": "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "as": true,
+        "at": {},
+        "fp": {}
+      }
+    },
+    {
+      "token": "eNqdUsFOwzAM_ZUo5x1Ku62jHBFIfAHHKjRuiZbZXZxOVNP-HWct2wWJjdNL7Pj5PTtHbZyutF5os5uRddUazyDHqKvjSfAwYSNP1wJBrrohZNch2No67r0Zpfzlq_GDBdUG2qlXP0JQz2PjQb1T2LJyeACMFEZp0wwcaQehDtAbF_i-aocfNKC0Bo4OTXSE_yPgT9f3Dru6J4diV7_hxOHwDwYa4m8abq6ffNccDdo73bPxwHXricLtHdP-rqtt5pXa8y7NvN8JtufQAYLpoB7Qxbohltk8FJuFbl1LNaBNM7uSV-ssy6R0PzEk0pNg20930tVjnhdFmWfFerNaluVqk5XyHM76ZxZloQlgGPhJpY6KWtURWVZM3oqVSzZSNF4ZZoisZH4KIaa8fKgLicxpL35jGMTuPtnVs-xkSTLLTCb5GRxuf3ymYFIv31xyIUziJVostBDkp28vPxgG",
+      "payload": {
+        "v": 2,
+        "s": 3,
+        "o": 9223372036854775807,
+        "dr": {
+          "c": {},
+          "q": {},
+          "k": {
+            "fifo_ending_inventory": 6000,
+            "average_unit_cost": 138
+          },
+          "r": {},
+          "a": {}
+        },
+        "ci": 6,
+        "cr": {
+          "sales_floor": "Include in Flyer Cycle Works inventory",
+          "repair_stands": "Exclude from Flyer Cycle Works inventory",
+          "customer_repairs": "Exclude from Flyer Cycle Works inventory",
+          "consigned_display": "Exclude from Flyer Cycle Works inventory",
+          "inbound_shipping_point": "Include in Flyer Cycle Works inventory",
+          "outbound_destination": "Include in Flyer Cycle Works inventory",
+          "inbound_destination": "Exclude from Flyer Cycle Works inventory"
+        },
+        "qv": {
+          "ending_units": 40,
+          "shrinkage_units": 4
+        },
+        "qe": "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "qs": true,
+        "cv": {},
+        "cs": false,
+        "ri": 0,
+        "rr": {},
+        "av": {},
+        "ai": "",
+        "am": "",
+        "as": false,
+        "at": {},
+        "fp": {}
+      },
+      "seed": "9223372036854775807"
+    }
+  ],
+  "shuffles": [
+    {
+      "seed": "0",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:sales_floor",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:repair_stands",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:customer_repairs",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:consigned_display",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_shipping_point",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:outbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "FIFO leaves the newer, higher-cost units in ending inventory",
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO creates a larger total cost of goods available for sale"
+      ],
+      "salt": "reporting-options:highest_inventory",
+      "output": [
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO leaves the newer, higher-cost units in ending inventory",
+        "FIFO creates a larger total cost of goods available for sale"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO records more sales revenue than LIFO",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold"
+      ],
+      "salt": "reporting-options:fifo_income_effect",
+      "output": [
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold",
+        "FIFO records more sales revenue than LIFO"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts",
+        "Weighted average changes the number of units available for sale"
+      ],
+      "salt": "reporting-options:average_position",
+      "output": [
+        "Weighted average changes the number of units available for sale",
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification allows management to change the sales price after the sale",
+        "Specific identification assigns the same average cost to every unit"
+      ],
+      "salt": "reporting-options:specific_identification",
+      "output": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification assigns the same average cost to every unit",
+        "Specific identification allows management to change the sales price after the sale"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable",
+        "The two amounts are placed on different statements only because they use different cost methods"
+      ],
+      "salt": "reporting-options:presentation",
+      "output": [
+        "The two amounts are placed on different statements only because they use different cost methods",
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory and cost of goods sold both increase; total assets do not change"
+      ],
+      "salt": "quantity-effect",
+      "output": [
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory and cost of goods sold both increase; total assets do not change",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days"
+      ],
+      "salt": "analysis-interpretation",
+      "output": [
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days",
+        "Inventory is moving faster than the industry average, with fewer funds tied up"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Increase every model's purchase quantity without reviewing demand",
+        "Ignore the result because inventory turnover does not affect operating decisions"
+      ],
+      "salt": "analysis-recommendation",
+      "output": [
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Ignore the result because inventory turnover does not affect operating decisions",
+        "Increase every model's purchase quantity without reviewing demand"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:sales_floor",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:repair_stands",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:customer_repairs",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:consigned_display",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_shipping_point",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:outbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "FIFO leaves the newer, higher-cost units in ending inventory",
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO creates a larger total cost of goods available for sale"
+      ],
+      "salt": "reporting-options:highest_inventory",
+      "output": [
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO creates a larger total cost of goods available for sale",
+        "FIFO leaves the newer, higher-cost units in ending inventory"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO records more sales revenue than LIFO",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold"
+      ],
+      "salt": "reporting-options:fifo_income_effect",
+      "output": [
+        "FIFO records more sales revenue than LIFO",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold",
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts",
+        "Weighted average changes the number of units available for sale"
+      ],
+      "salt": "reporting-options:average_position",
+      "output": [
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average changes the number of units available for sale",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification allows management to change the sales price after the sale",
+        "Specific identification assigns the same average cost to every unit"
+      ],
+      "salt": "reporting-options:specific_identification",
+      "output": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification assigns the same average cost to every unit",
+        "Specific identification allows management to change the sales price after the sale"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable",
+        "The two amounts are placed on different statements only because they use different cost methods"
+      ],
+      "salt": "reporting-options:presentation",
+      "output": [
+        "The two amounts are placed on different statements only because they use different cost methods",
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory and cost of goods sold both increase; total assets do not change"
+      ],
+      "salt": "quantity-effect",
+      "output": [
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory and cost of goods sold both increase; total assets do not change",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days"
+      ],
+      "salt": "analysis-interpretation",
+      "output": [
+        "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Increase every model's purchase quantity without reviewing demand",
+        "Ignore the result because inventory turnover does not affect operating decisions"
+      ],
+      "salt": "analysis-recommendation",
+      "output": [
+        "Increase every model's purchase quantity without reviewing demand",
+        "Ignore the result because inventory turnover does not affect operating decisions",
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:sales_floor",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:repair_stands",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:customer_repairs",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:consigned_display",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_shipping_point",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:outbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "FIFO leaves the newer, higher-cost units in ending inventory",
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO creates a larger total cost of goods available for sale"
+      ],
+      "salt": "reporting-options:highest_inventory",
+      "output": [
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO creates a larger total cost of goods available for sale",
+        "FIFO leaves the newer, higher-cost units in ending inventory"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO records more sales revenue than LIFO",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold"
+      ],
+      "salt": "reporting-options:fifo_income_effect",
+      "output": [
+        "FIFO records more sales revenue than LIFO",
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts",
+        "Weighted average changes the number of units available for sale"
+      ],
+      "salt": "reporting-options:average_position",
+      "output": [
+        "Weighted average changes the number of units available for sale",
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification allows management to change the sales price after the sale",
+        "Specific identification assigns the same average cost to every unit"
+      ],
+      "salt": "reporting-options:specific_identification",
+      "output": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification assigns the same average cost to every unit",
+        "Specific identification allows management to change the sales price after the sale"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable",
+        "The two amounts are placed on different statements only because they use different cost methods"
+      ],
+      "salt": "reporting-options:presentation",
+      "output": [
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable",
+        "The two amounts are placed on different statements only because they use different cost methods",
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory and cost of goods sold both increase; total assets do not change"
+      ],
+      "salt": "quantity-effect",
+      "output": [
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory and cost of goods sold both increase; total assets do not change"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days"
+      ],
+      "salt": "analysis-interpretation",
+      "output": [
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days",
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "Inventory is moving faster than the industry average, with fewer funds tied up"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Increase every model's purchase quantity without reviewing demand",
+        "Ignore the result because inventory turnover does not affect operating decisions"
+      ],
+      "salt": "analysis-recommendation",
+      "output": [
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Ignore the result because inventory turnover does not affect operating decisions",
+        "Increase every model's purchase quantity without reviewing demand"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:sales_floor",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:repair_stands",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:customer_repairs",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:consigned_display",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_shipping_point",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:outbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "FIFO leaves the newer, higher-cost units in ending inventory",
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO creates a larger total cost of goods available for sale"
+      ],
+      "salt": "reporting-options:highest_inventory",
+      "output": [
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO leaves the newer, higher-cost units in ending inventory",
+        "FIFO creates a larger total cost of goods available for sale"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO records more sales revenue than LIFO",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold"
+      ],
+      "salt": "reporting-options:fifo_income_effect",
+      "output": [
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold",
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO records more sales revenue than LIFO"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts",
+        "Weighted average changes the number of units available for sale"
+      ],
+      "salt": "reporting-options:average_position",
+      "output": [
+        "Weighted average changes the number of units available for sale",
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification allows management to change the sales price after the sale",
+        "Specific identification assigns the same average cost to every unit"
+      ],
+      "salt": "reporting-options:specific_identification",
+      "output": [
+        "Specific identification allows management to change the sales price after the sale",
+        "Specific identification assigns the same average cost to every unit",
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable",
+        "The two amounts are placed on different statements only because they use different cost methods"
+      ],
+      "salt": "reporting-options:presentation",
+      "output": [
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable",
+        "The two amounts are placed on different statements only because they use different cost methods",
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory and cost of goods sold both increase; total assets do not change"
+      ],
+      "salt": "quantity-effect",
+      "output": [
+        "Inventory and cost of goods sold both increase; total assets do not change",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days"
+      ],
+      "salt": "analysis-interpretation",
+      "output": [
+        "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Increase every model's purchase quantity without reviewing demand",
+        "Ignore the result because inventory turnover does not affect operating decisions"
+      ],
+      "salt": "analysis-recommendation",
+      "output": [
+        "Ignore the result because inventory turnover does not affect operating decisions",
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Increase every model's purchase quantity without reviewing demand"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:sales_floor",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:repair_stands",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:customer_repairs",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:consigned_display",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_shipping_point",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:outbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Include in Flyer Cycle Works inventory",
+        "Exclude from Flyer Cycle Works inventory"
+      ],
+      "salt": "count-options:inbound_destination",
+      "output": [
+        "Exclude from Flyer Cycle Works inventory",
+        "Include in Flyer Cycle Works inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "FIFO leaves the newer, higher-cost units in ending inventory",
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO creates a larger total cost of goods available for sale"
+      ],
+      "salt": "reporting-options:highest_inventory",
+      "output": [
+        "FIFO creates a larger total cost of goods available for sale",
+        "FIFO assumes the company owns more physical units at year-end",
+        "FIFO leaves the newer, higher-cost units in ending inventory"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO records more sales revenue than LIFO",
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold"
+      ],
+      "salt": "reporting-options:fifo_income_effect",
+      "output": [
+        "FIFO uses fewer physical units when calculating Cost of Goods Sold",
+        "More available cost remains in ending inventory, leaving less cost assigned to sold units",
+        "FIFO records more sales revenue than LIFO"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts",
+        "Weighted average changes the number of units available for sale"
+      ],
+      "salt": "reporting-options:average_position",
+      "output": [
+        "Weighted average blends the costs of both layers before assigning cost to units",
+        "Weighted average changes the number of units available for sale",
+        "Weighted average always selects the midpoint of the FIFO and LIFO dollar amounts"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold",
+        "Specific identification allows management to change the sales price after the sale",
+        "Specific identification assigns the same average cost to every unit"
+      ],
+      "salt": "reporting-options:specific_identification",
+      "output": [
+        "Specific identification allows management to change the sales price after the sale",
+        "Specific identification assigns the same average cost to every unit",
+        "The actual costs of the particular units selected as sold determine Cost of Goods Sold"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable",
+        "The two amounts are placed on different statements only because they use different cost methods"
+      ],
+      "salt": "reporting-options:presentation",
+      "output": [
+        "Ending inventory provides a future benefit; Cost of Goods Sold is a cost of current-period operations",
+        "The two amounts are placed on different statements only because they use different cost methods",
+        "Inventory is always more liquid than cash, while Cost of Goods Sold is not measurable"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease",
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory and cost of goods sold both increase; total assets do not change"
+      ],
+      "salt": "quantity-effect",
+      "output": [
+        "Inventory increases; cost of goods sold decreases; total assets and net income increase",
+        "Inventory and cost of goods sold both increase; total assets do not change",
+        "Inventory decreases; cost of goods sold increases; total assets and net income decrease"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "Inventory is moving faster than the industry average, with fewer funds tied up",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days"
+      ],
+      "salt": "analysis-interpretation",
+      "output": [
+        "Inventory is moving more slowly than the industry average, with funds tied up longer",
+        "The company cannot be compared with the industry because one measure uses dollars and the other uses days",
+        "Inventory is moving faster than the industry average, with fewer funds tied up"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions",
+        "Increase every model's purchase quantity without reviewing demand",
+        "Ignore the result because inventory turnover does not affect operating decisions"
+      ],
+      "salt": "analysis-recommendation",
+      "output": [
+        "Increase every model's purchase quantity without reviewing demand",
+        "Ignore the result because inventory turnover does not affect operating decisions",
+        "Identify slow-moving models, adjust future purchases, and use targeted promotions"
+      ]
+    }
+  ]
+}

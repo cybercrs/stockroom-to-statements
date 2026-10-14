@@ -1,0 +1,24 @@
+name: Native JavaScript checks
+on:
+  push:
+    branches: [native/javascript]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: pip install -r requirements.txt ruff==0.14.0
+      - run: python -m unittest discover -s tests -v
+      - run: python native/export.py
+      - run: git diff --exit-code -- native/content.js native/original.css native/tests/python-oracles.json
+      - run: node --test native/tests/*.test.mjs
+      - run: ruff check native
+      - run: node --check native/common.js && node --check native/engine.js && node --check native/app.js
+      - run: python native/build.py

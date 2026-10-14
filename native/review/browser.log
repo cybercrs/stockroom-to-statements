@@ -1,0 +1,9 @@
+PASSED: Packaged native runtime, final title, project /js/ assets and desktop layout
+PASSED: Missing selection; deliberate wrong answer; refresh; revision; repeated immutable review; keyboard
+PASSED: Drafts and stable shuffle preserved in review bookmarks; future-view rejected
+PASSED: Complete lesson including all decisions, numeric gates, wrong calculations, revisions and scoring
+PASSED: Entire reached lesson reviewed both directions without progress changes; 390px layout
+PASSED: Separate tabs and contexts; reset and refreshed new game; invalid snapshot and future rejected
+PASSED: Original saved links for every stage restore without unlocking future views
+PASSED: Five local cold initializations with no runtime installation
+PASSED: No external requests, console errors or page execution errors

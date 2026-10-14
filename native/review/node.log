@@ -1,0 +1,15 @@
+✔ Inventory calculations and every method match independent Python outcomes (1.298903ms)
+✔ Every Python option order matches exactly including 63-bit seeds (18.646115ms)
+✔ All original stage snapshots decode and native links round-trip losslessly (28.97913ms)
+✔ Invalid snapshots, future work, unknown and nonnumeric drafts are rejected (1.466545ms)
+✔ Complete validated route preserves wrong answers, repeat attempts and numeric recheck rules (4.812135ms)
+✔ View clamping, numeric units/ranges, draft text and first-pass scores remain bounded (0.30641ms)
+✔ Final titles and all generated lesson variants contain no provisional branding (0.714004ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.995995
